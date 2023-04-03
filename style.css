@@ -1,0 +1,209 @@
+body{ 
+    background:white;
+}
+.logo{
+    margin: left 100px; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color:white ;
+    color: rgb(34, 34, 243);
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+nav button3{
+    border: 0;
+    outline: 0;
+    background-color:rgb(26, 47, 235) ;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav button2{
+    border: 0;
+    outline: 0;
+    background-color:rgb(13, 41, 163) ;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.line{
+    width: 5px;
+    background-color: rgb(87, 87, 249);
+    height: 20px;
+    position: relative;
+
+}
+.container search-bar{
+    width: 100%;
+    max-width: 30px;
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+}
+.h1{
+    color: #1c4980;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.images{
+    padding: 5px;
+    display: -moz-grid-group;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+.imgtext{
+    position: absolute;
+    top:25%
+    padding 10px;
+}
+.container{
+    position:relative;
+    height:"20px";
+    border-radius:5px;
+     vertical-align: middle;
+     margin-left: 300px;
+}
+.one{
+    position: absolute;
+    top:5px;
+    left:5px;
+    font-size: 20px;
+}
+.btn .p.btn{
+    border: 1px;
+    background: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    overflow: hidden;
+    
+
+}
+.btn{
+    position:relative;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    color: rgb(255, 30, 30);
+    font-size: 15px;
+    padding: 8px;
+    letter-spacing: 0.5px;
+    
+
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width: 0%;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    padding: 8px;
+    color:rgb(7, 131, 255);
+    font-stretch: wider;
+}
+.btn:hover:after{
+    width: 100%;
+    font-weight: bolder;
+    
+}
+/* .images{
+    padding: 10px 20px;
+    border: 1px;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 200px;
+}
+
+.images:hover{
+    padding: 15px;
+    outline: 10px;
+} */
+.btn2{
+    border: 1px;
+    background: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    overflow: hidden;
+    
+
+}
+.btn2{
+    position:relative;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    color: rgb(255, 30, 30);
+    font-size: 15px;
+    padding: 8px;
+    letter-spacing: 0.5px;
+    
+
+}
+.btn2::after{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width: 0%;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.btn2:hover{
+    padding: 8px;
+    color:rgb(7, 131, 255);
+    font-stretch: wider;
+}
+.btn2:hover:after{
+    width: 100%;
+    font-weight: bolder;
+    
+}
+
+
